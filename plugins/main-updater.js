@@ -19,7 +19,7 @@ cmd({
         await reply("🔍 Checking for 𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳 updates...");
 
         // Fetch the latest commit hash from GitHub
-        const { data: commitData } = await axios.get("https://api.github.com/repos/bot-deploy-main/DARK-KNIGHT-XMD/commits/main");
+        const { data: commitData } = await axios.get("https://api.github.com/repos/darkashenxmd/Dark-ashen-xmd/commits/main");
         const latestCommitHash = commitData.sha;
 
         // Get the stored commit hash from the database
@@ -33,7 +33,7 @@ cmd({
 
         // Download the latest code
         const zipPath = path.join(__dirname, "latest.zip");
-        const { data: zipData } = await axios.get("https://github.com/bot-deploy-main/DARK-KNIGHT-XMD/archive/main.zip", { responseType: "arraybuffer" });
+        const { data: zipData } = await axios.get("https://github.com/darkashenxmd/Dark-ashen-xmd/archive/main.zip", { responseType: "arraybuffer" });
         fs.writeFileSync(zipPath, zipData);
 
         // Extract ZIP file
@@ -44,7 +44,7 @@ cmd({
 
         // Copy updated files, preserving config.js and app.json
         await reply("🔄 Replacing files...");
-        const sourcePath = path.join(extractPath, "DARK-KNIGHT-XMD-main");
+        const sourcePath = path.join(extractPath, "Dark-ashen-xmd-main");
         const destinationPath = path.join(__dirname, '..');
         copyFolderSync(sourcePath, destinationPath);
 
