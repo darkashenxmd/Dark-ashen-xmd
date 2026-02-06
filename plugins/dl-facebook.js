@@ -38,7 +38,7 @@ cmd({
 2️⃣ *HD Quality*🔋
 3️⃣ *Audio (MP3)*🎶
 
-> Powered by 𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳`;
+ Powered by 𝐷𝑎𝑟𝑘 𝐴𝑠ℎ𝑒𝑛 𝑥𝑚𝑑 💀💥`;
 
     const sentMsg = await conn.sendMessage(from, {
       image: { url: thumbnail },
@@ -132,7 +132,7 @@ cmd({
 2️⃣ *HD Quality*🔋
 3️⃣ *Audio (MP3)*🎶
 
-> Powered by 𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳`;
+ Powered by 𝐷𝑎𝑟𝑘 𝐴𝑠ℎ𝑒𝑛 𝑥𝑚𝑑 💀💥`;
 
     const sentMsg = await conn.sendMessage(from, {
       image: { url: thumbnail },
