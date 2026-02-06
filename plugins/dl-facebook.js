@@ -27,7 +27,7 @@ cmd({
     const { title, thumbnail, low, high } = data.data;
 
     const caption = `
-📺 *Facebook Downloader.* 📥
+📺 *ꜰᴀᴄᴇʙᴏᴏᴋ ᴅᴏᴡɴʟᴏᴅᴇʀ.* 📥
 
 📑 *Title:* ${title || "No title"}
 🔗 *Link:* ${q}
@@ -38,7 +38,7 @@ cmd({
 2️⃣ *HD Quality*🔋
 3️⃣ *Audio (MP3)*🎶
 
- Powered by 𝐷𝑎𝑟𝑘 𝐴𝑠ℎ𝑒𝑛 𝑥𝑚𝑑 💀💥`;
+ 𝐏𝐎𝐖𝐄𝐑𝐃 𝐁𝐘 𝐃𝐀𝐑𝐊 𝐀𝐒𝐇𝐄𝐍 𝐗𝐌𝐃 💀👾`;
 
     const sentMsg = await conn.sendMessage(from, {
       image: { url: thumbnail },
@@ -121,7 +121,7 @@ cmd({
     const { sd, hd } = data.result.download;  
     
     const caption = `
-📺 *Facebook Downloader.* 📥
+📺 *ꜰᴀᴄᴇʙᴏᴏᴋ ᴅᴏᴡɴʟᴏᴅᴇʀ.* 📥
 
 📑 *Title:* ${title || "No title"}
 🔗 *Link:* ${q}
@@ -132,7 +132,7 @@ cmd({
 2️⃣ *HD Quality*🔋
 3️⃣ *Audio (MP3)*🎶
 
- Powered by 𝐷𝑎𝑟𝑘 𝐴𝑠ℎ𝑒𝑛 𝑥𝑚𝑑 💀💥`;
+ 𝐏𝐎𝐖𝐄𝐑𝐃 𝐁𝐘 𝐃𝐀𝐑𝐊 𝐀𝐒𝐇𝐄𝐍 𝐗𝐌𝐃 💀👾`;
 
     const sentMsg = await conn.sendMessage(from, {
       image: { url: thumbnail },
