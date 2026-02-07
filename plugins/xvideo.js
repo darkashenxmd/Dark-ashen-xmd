@@ -37,13 +37,13 @@ cmd(
                 await reply("No result found you enter xnxx video name.")
             }
             
-            let list = "🔍 Xnxx Search Results.🔞\n\n🔢 *Reply Below Number.*\n\n";
+            let list = "🔍 Xnxx Search Results.🔞\n\n🔢 *ʀᴇᴘʟʏ ʙᴇʟᴏᴡ ɴᴜᴍʙᴇʀ 💗.*\n\n";
             
             xnxxSearchapi.result.xvideos.forEach((xnxx, i) => {
             list += `*\`${i + 1}\` | | ${xnxx.title || "No title"}*\n`;
           });
           
-          const listMsg = await conn.sendMessage(from, { text: list + "\n🔢 *reply with the number to Choose a video*\n\n" + tharuzz_footer }, { quoted: mek });
+          const listMsg = await conn.sendMessage(from, { text: list + "\n🔢 *ʀᴇᴘʟʏ ʙᴇʟᴏᴡ ɴᴜᴍʙᴇʀ to Choose a video*\n\n" + tharuzz_footer }, { quoted: mek });
           const listMsgId = listMsg.key.id;
           
           conn.ev.on("messages.upsert", async (update) => {
@@ -153,7 +153,7 @@ cmd(
             const results = searchRes?.result?.result;
             if (!results || results.length === 0) return await reply("😔 No results found.");
 
-            let list = "🔍 *Xvideo Search Results* 🔞\n\n🔢 *Reply Below Number.*\n\n";
+            let list = "🔍 *Xvideo Search Results* 🔞\n\n🔢 *ʀᴇᴘʟʏ ʙᴇʟᴏᴡ ɴᴜᴍʙᴇʀ 💗.*\n\n";
             results.forEach((vid, i) => {
                 list += `*\`${i + 1}\` | | ${vid.title || "No title"}*\n`;
             });
