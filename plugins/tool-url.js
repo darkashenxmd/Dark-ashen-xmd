@@ -65,7 +65,7 @@ cmd({
       `*${mediaType} Uploaded Successfully*\n\n` +
       `*Size:* ${formatBytes(mediaBuffer.length)}\n` +
       `*URL:* ${mediaUrl}\n\n` +
-      `> © Uploaded by 𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳 ☣️`
+      `ᴜᴘʟᴏᴀᴅᴇᴅ ʙʏ ᴅᴀʀᴋ ᴀꜱʜᴇɴ xᴍᴅ ☣️`
     );
 
   } catch (error) {
@@ -134,7 +134,7 @@ cmd({
       `📏 *Size:* ${formatBytes(mediaBuffer.length)}\n` +
       `🔗 *Direct URL:* ${data.url}\n` +
 
-      `> © Uploaded by 𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳 ☣️`
+      `ᴜᴘʟᴏᴀᴅᴇᴅ ʙʏ ᴅᴀʀᴋ ᴀꜱʜᴇɴ xᴍᴅ ☣️`
     );
 
   } catch (error) {
