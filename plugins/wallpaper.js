@@ -2,7 +2,7 @@ const { cmd } = require("../command");
 const axios = require("axios");
 
 cmd({
-  pattern: "rw2",
+  pattern: ".wp",
   alias: ["randomwall2", "wallpaper2"],
   react: "🌌",
   desc: "Download random wallpapers based on keywords.",
