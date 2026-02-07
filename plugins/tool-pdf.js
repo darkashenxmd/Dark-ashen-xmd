@@ -25,11 +25,11 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
             await conn.sendMessage(from, {
                 document: pdfData,
                 mimetype: 'application/pdf',
-                fileName: '𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳.pdf',
+                fileName: 'ᴅᴀʀᴋ ᴀꜱʜᴇɴ xᴍᴅ.pdf',
                 caption: `
 *📄 PDF created successully!*
 
-> © Created By 𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳 ☣️`
+ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴅᴀʀᴋ ᴀꜱʜᴇɴ xᴍᴅ ☣️`
             }, { quoted: mek });
         });
 
