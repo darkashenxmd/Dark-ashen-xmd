@@ -13,7 +13,7 @@ AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
 // make true if you want auto reply on status 
 AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
 // make true if you want auto reply on status 
-AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS BY 𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳🤍*",
+AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS BY ᴅᴀʀᴋ ᴀꜱʜᴇɴ xᴍᴅ🤍*",
 // set the auto reply massage on status reply  
 WELCOME: process.env.WELCOME || "true",
 // true if want welcome and goodbye msg in groups    
@@ -23,13 +23,13 @@ ANTI_LINK: process.env.ANTI_LINK || "true",
 // make anti link true,false for groups 
 MENTION_REPLY: process.env.MENTION_REPLY || "false",
 // make true if want auto voice reply if someone menetion you 
-MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/brlkte.jpg",
+MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/1j9boj.jpg",
 // add custom menu and mention reply image url
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
-BOT_NAME: process.env.BOT_NAME || "𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳",
+BOT_NAME: process.env.BOT_NAME || "ᴅᴀʀᴋ ᴀꜱʜᴇɴ xᴍᴅ",
 // add bot namw here for menu
-STICKER_NAME: process.env.STICKER_NAME || "𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳",
+STICKER_NAME: process.env.STICKER_NAME || "ᴅᴀʀᴋ ᴀꜱʜᴇɴ xᴍᴅ",
 // type sticker pack name 
 CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
 // make this true for custum emoji react    
@@ -37,15 +37,15 @@ CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "👍,❤️,😂,😮,�
 // chose custom react emojis by yourself 
 DELETE_LINKS: process.env.DELETE_LINKS || "true",
 // automatic delete links witho remove member 
-OWNER_NUMBER: process.env.OWNER_NUMBER || "94763934860",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "94712007227",
 // add your bot owner number
-OWNER_NAME: process.env.OWNER_NAME || "𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃",
+OWNER_NAME: process.env.OWNER_NAME || "ᴅᴀʀᴋ ᴀꜱʜᴇɴ",
 // add bot owner name
-DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳*",
+DESCRIPTION: process.env.DESCRIPTION || "*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋ ᴀꜱʜᴇɴ xᴍᴅ*",
 // add bot owner name    
-ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/brlkte.jpg",
+ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/1j9boj.jpg",
 // add img for alive msg
-LIVE_MSG: process.env.LIVE_MSG || "> I'm Live Now *𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳*⚡",
+LIVE_MSG: process.env.LIVE_MSG || "> ɪ`ᴍ ᴀʟɪᴠᴇ ɴᴏᴡ *ᴅᴀʀᴋ ᴀꜱʜᴇɴ xᴍᴅ*⚡",
 // add alive msg here 
 READ_MESSAGE: process.env.READ_MESSAGE || "false",
 // Turn true or false for automatic read msgs
@@ -73,7 +73,7 @@ AUTO_TYPING: process.env.AUTO_TYPING || "false",
 // true for automatic show typing   
 READ_CMD: process.env.READ_CMD || "false",
 // true if want mark commands as read 
-DEV: process.env.DEV || "94763934860",
+DEV: process.env.DEV || "94712007277",
 //replace with your whatsapp number        
 ANTI_VV: process.env.ANTI_VV || "true",
 // true for anti once view 
