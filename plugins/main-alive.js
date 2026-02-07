@@ -13,17 +13,17 @@ cmd({
 async (conn, mek, m, { from, sender, reply }) => {
     try {
         const status = `
-╭──〔 🤖 *ALIVE STATUS* 〕──◉
+╭──┝ ━[ ᴀʟɪᴠᴇ ꜱᴛᴀᴛᴜꜱ.]-➢──◉
 │
 │ ✨ _Bot is Active & Online!_
 │
-│ 🧠 *Owner:* ${config.OWNER_NAME}
-│ ⚡ *Version:* 2.0.0
-│ 📝 *Prefix:* [${config.PREFIX}]
-│ 📳 *Mode:* [${config.MODE}]
-│ 💾 *RAM:* ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${(os.totalmem() / 1024 / 1024).toFixed(2)}MB
-│ 🖥️ *Host:* ${os.hostname()}
-│ ⌛ *Uptime:* ${runtime(process.uptime())}
+│ 🧠 *ᴏᴡɴᴇʀ:* ${config.OWNER_NAME}
+│ ⚡ *ᴠᴇʀꜱɪᴏɴ:* 2.0.0
+│ 📝 *ᴘʀᴇᴅɪx:* [${config.PREFIX}]
+│ 📳 *ᴍᴏᴅᴇ:* [${config.MODE}]
+│ 💾 *ʀᴀᴍ:* ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${(os.totalmem() / 1024 / 1024).toFixed(2)}MB
+│ 🖥️ *ʜᴏꜱᴛ:* ${os.hostname()}
+│ ⌛ *ᴜᴘᴛɪᴍᴇ:* ${runtime(process.uptime())}
 ╰───────────────◉
 > ${config.DESCRIPTION}`;
 
@@ -36,7 +36,7 @@ async (conn, mek, m, { from, sender, reply }) => {
       },
       message: {
         contactMessage: {
-          displayName: "© 𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃",
+          displayName: "ᴅᴀʀᴋ ᴀꜱʜᴇɴ xᴍᴅ",
           vcard: `BEGIN:VCARD\nVERSION:3.0\nFN:Meta\nORG:META AI;\nTEL;type=CELL;type=VOICE;waid=13135550002:+13135550002\nEND:VCARD`
         }
       }
@@ -50,8 +50,8 @@ async (conn, mek, m, { from, sender, reply }) => {
                 forwardingScore: 1000,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363400240662312@newsletter',
-                    newsletterName: '𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳',
+                    newsletterJid: '120363423214034064@newsletter',
+                    newsletterName: 'ᴅᴀʀᴋ ᴀꜱʜᴇɴ xᴍᴅ',
                     serverMessageId: 143
                 }
             }
