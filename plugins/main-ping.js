@@ -58,7 +58,7 @@ cmd({
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363400240662312@newsletter',
+                    newsletterJid: '120363423214034064@newsletter',
                     newsletterName: "ᴅᴀʀᴋ ᴀꜱʜᴇɴ xᴍᴅ",
                     serverMessageId: 143
                 }
@@ -128,7 +128,7 @@ async (conn, mek, m, { from, quoted, sender, reply }) => {
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363400240662312@newsletter',
+                    newsletterJid: '120363423214034064@newsletter',
                     newsletterName: "ᴅᴀʀᴋ ᴀꜱʜᴇɴ xᴍᴅ",
                     serverMessageId: 143
                 }
