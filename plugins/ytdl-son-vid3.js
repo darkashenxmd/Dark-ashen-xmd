@@ -30,21 +30,21 @@ cmd({
         const result = apiRes.result.media;
 
         const caption = `
-🎵 *Song Downloader.* 📥
+🎵 *ꜱᴏɴɢ ᴅᴏᴡɴʟᴏᴅᴇʀ.* 📥
 
-📑 *Title:* ${data.title}
-⏱️ *Duration:* ${data.timestamp}
-📆 *Uploaded:* ${data.ago}
-📊 *Views:* ${data.views}
-🔗 *Link:* ${data.url}
+📑 *ᴛɪᴛʟᴇʀ:* ${data.title}
+⏱️ *ᴅᴜʀᴀᴛɪᴏɴ:* ${data.timestamp}
+📆 *ᴜᴘʟᴏᴀᴅᴇᴅ:* ${data.ago}
+📊 *ᴠɪᴇᴡꜱ:* ${data.views}
+🔗 *ʟɪɴᴋ:* ${data.url}
 
-🔢 *Reply Below Number*
+🔢 *ʀᴇᴘʟʏ ʙᴇʟᴏᴡ ɴᴜᴍʙᴇʀ 💗*
 
-1️⃣ *Audio Type*
-2️⃣ *Document Type*
-3️⃣ *Voice Note*
+1️⃣ *ᴀᴜᴅɪᴏ (ᴍᴘ3)*
+2️⃣ *ᴅᴏᴄᴜᴍᴇɴᴛ ᴛʏᴘᴇ*
+3️⃣ *ᴠᴏɪᴄᴇ ɴᴏᴛᴇ*
  
-> Powered by 𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳`;
+𝐏𝐎𝐖𝐄𝐑𝐃 𝐁𝐘 𝐃𝐀𝐑𝐊 𝐀𝐒𝐇𝐄𝐍 𝐗𝐌𝐃 💀👾`;
 
         const sentMsg = await conn.sendMessage(from, {
             image: { url: result.thumbnail },
@@ -129,20 +129,20 @@ cmd({
         const result = apiRes.result.media;
 
         const caption = `
-🎥 *Video Downloader.* 📥
+🎥 *ᴠɪᴅᴇᴏ ᴅᴏᴡɴʟᴏᴅᴇʀ.* 📥
 
-📑 *Title:* ${data.title}
-⏱️ *Duration:* ${data.timestamp}
-📆 *Uploaded:* ${data.ago}
-📊 *Views:* ${data.views}
-🔗 *Link:* ${data.url}
+📑 *ᴛɪᴛᴇʟ:* ${data.title}
+⏱️ *ᴅᴜʀᴀᴛɪᴏɴ:* ${data.timestamp}
+📆 *ᴜᴘʟᴏᴀᴅᴇᴅ:* ${data.ago}
+📊 *ᴠɪᴇᴡꜱ:* ${data.views}
+🔗 *ʟɪɴᴋ:* ${data.url}
 
-🔢 *Reply Below Number*
+🔢 *ʀᴇᴘʟʏ ʙᴇʟᴏᴡ ɴᴜᴍʙᴇʀ 💗*
 
-1️⃣ *Video Type*
-2️⃣ *Document Type*
+1️⃣ *ᴀᴜᴅɪᴏ (ᴍᴘ3)*
+2️⃣ *ᴅᴏᴄᴜᴍᴇɴᴛ ᴛʏᴘᴇ*
  
-> Powered by 𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳`;
+𝐏𝐎𝐖𝐄𝐑𝐃 𝐁𝐘 𝐃𝐀𝐑𝐊 𝐀𝐒𝐇𝐄𝐍 𝐗𝐌𝐃 💀👾`;
 
         const sentMsg = await conn.sendMessage(from, {
             image: { url: result.thumbnail },
