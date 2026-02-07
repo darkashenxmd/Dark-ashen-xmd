@@ -16,7 +16,7 @@ cmd({
     if (!isOwner) return reply("This command is only for the bot owner.");
 
     try {
-        await reply("🔍 Checking for 𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳 updates...");
+        await reply("🔍 Checking for ᴅᴀʀᴋ ᴀꜱʜᴇɴ xᴍᴅ updates...");
 
         // Fetch the latest commit hash from GitHub
         const { data: commitData } = await axios.get("https://api.github.com/repos/darkashenxmd/Dark-ashen-xmd/commits/main");
@@ -26,10 +26,10 @@ cmd({
         const currentHash = await getCommitHash();
 
         if (latestCommitHash === currentHash) {
-            return reply("✅ Your 𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳 bot is already up-to-date!");
+            return reply("✅ Your ᴅᴀʀᴋ ᴀꜱʜᴇɴ xᴍᴅ bot is already up-to-date!");
         }
 
-        await reply("🚀 Updating 𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳 Bot...");
+        await reply("🚀 ᴜᴘᴅᴀᴛɪɴɢ ᴅᴀᴛᴋ ᴀꜱʜᴇɴ xᴍᴅ ʙᴏᴛ...");
 
         // Download the latest code
         const zipPath = path.join(__dirname, "latest.zip");
